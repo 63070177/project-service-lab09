@@ -1,6 +1,6 @@
 package com.sop.lab09.projectservice.command;
 
-import com.sop.lab09.projectservice.event.ProductCreateEvent;
+import com.sop.lab09.projectservice.core.event.ProductCreateEvent;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;

@@ -1,4 +1,4 @@
-package com.sop.lab09.projectservice.event;
+package com.sop.lab09.projectservice.core.event;
 
 import lombok.Data;
 
