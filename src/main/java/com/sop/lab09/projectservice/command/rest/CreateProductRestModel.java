@@ -1,4 +1,4 @@
-package com.sop.lab09.projectservice.rest;
+package com.sop.lab09.projectservice.command.rest;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.sop.lab09.projectservice.rest;
+package com.sop.lab09.projectservice.command.rest;
 
 import org.springframework.web.bind.annotation.*;
 import org.axonframework.commandhandling.gateway.CommandGateway;
@@ -7,12 +7,12 @@ import com.sop.lab09.projectservice.command.CreateProductCommand;
 import java.util.UUID;
 @RestController
 @RequestMapping("/products")
-public class ProductController {
+public class ProductCommandController {
 
     private final CommandGateway commandGateway;
 
     @Autowired
-    public ProductController(CommandGateway commandGateway){
+    public ProductCommandController(CommandGateway commandGateway){
         this.commandGateway = commandGateway;
     }
 
